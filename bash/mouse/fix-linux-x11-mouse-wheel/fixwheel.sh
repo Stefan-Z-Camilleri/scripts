@@ -38,6 +38,6 @@ sed -i "s/\($TARGET_KEY *Button4, *\).*/\1$NEW_VALUE/" ~/.imwheelrc # find the s
 sed -i "s/\($TARGET_KEY *Button5, *\).*/\1$NEW_VALUE/" ~/.imwheelrc # find the string Button5, and write new value.
 
 cat ~/.imwheelrc
-imwheel -kill
+imwheel -kill -b 45
 
 # END OF SCRIPT FILE
